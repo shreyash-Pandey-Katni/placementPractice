@@ -4,31 +4,21 @@
 using namespace std;
 vector<long long> nextLargerElement(vector<long long> arr, int n)
 {
-    stack<long long> st;
-    vector<long long> res;
-    st.push(arr[0]);
-    int next = arr[0];
-    for (int i = 1; i < n; i++)
+    stack<long long> s;
+    vector<long long> result(n);
+    for (int i = n - 1; i >= 0; i--)
     {
-        if (st.empty())
+        if (!s.empty())
         {
-            st.push(arr[i]);
-            continue;
+            while (!s.empty() && arr[i] > s.top())
+            {
+                s.pop();
+            }
         }
-        next = arr[i];
-        while (!st.empty() && st.top() < next)
-        {
-            res.push_back(next);
-            st.pop();
-        }
-        st.push(next);
+        result[i] = s.empty() ? -1 : s.top();
+        s.push(arr[i]);
     }
-    while (!st.empty())
-    {
-        res.push_back(-1);
-        st.pop();
-    }
-    return res;
+    return result;
 }
 int main(int argc, char const *argv[])
 {
