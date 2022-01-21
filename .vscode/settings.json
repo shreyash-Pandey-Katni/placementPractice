@@ -17,6 +17,15 @@
         "variant": "cpp",
         "list": "cpp",
         "random": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "bit": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "algorithm": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "shared_mutex": "cpp",
+        "streambuf": "cpp"
     }
 }
