@@ -26,6 +26,8 @@
         "limits": "cpp",
         "mutex": "cpp",
         "shared_mutex": "cpp",
-        "streambuf": "cpp"
+        "streambuf": "cpp",
+        "regex": "cpp",
+        "typeinfo": "cpp"
     }
 }
