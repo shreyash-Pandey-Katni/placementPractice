@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <queue>
 #include <unordered_map>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 struct ele
 {
@@ -28,66 +28,53 @@ int dy[] = {0, 1, 0, -1};
 
 vector<vector<int>> nearest(vector<vector<int>> grid)
 {
+    vector<vector<int>> ans = grid;
     int n = grid.size();
     int m = grid[0].size();
+    int visited[n][m] = {0};
     queue<ele> q;
-    vector<vector<int>> ans(n, vector<int>(m, 0));
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < grid.size(); i++)
     {
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j < grid[0].size(); j++)
         {
-            if (grid[i][j] == 0)
+            if (grid[i][j] == 1)
             {
+                ans[i][j] = 0;
+                visited[i][j] = 1;
                 q.push(ele(0, i, j));
             }
         }
     }
+    int currDist = 1;
+    q.push(ele(-1, 0, 0));
     while (!q.empty())
     {
-        ele cur = q.front();
+        ele curr = q.front();
         q.pop();
-        int x = cur.x;
-        int y = cur.y;
-        int val = cur.val;
-        // ans[x][y] = val;
+        if (curr.val == -1)
+        {
+            currDist++;
+            if (!q.empty())
+                q.push(ele(-1, 0, 0));
+            continue;
+        }
+        int x = curr.x;
+        int y = curr.y;
         for (int i = 0; i < 4; i++)
         {
             int nx = x + dx[i];
             int ny = y + dy[i];
-            if (isValid(nx, ny, n, m) && ans[x][y] == 0)
+            if (isValid(nx, ny, n, m) && grid[nx][ny] == 0 && visited[nx][ny] == 0)
             {
-                if (grid[nx][ny] == 1)
-                {
-                    ans[x][y] = 1;
-                }
+                ans[nx][ny] = currDist;
+                visited[nx][ny] = 1;
+                q.push(ele(currDist, nx, ny));
             }
         }
-        
     }
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < m; j++)
-        {
-            if(ans[i][j] !=0 || grid[i][j] == 1)
-            {
-                continue;
-            }
-            int minTemp = INT_MAX;
-            for (int k = 0; k < 4; k++)
-            {
-                int nx = i + dx[k];
-                int ny = j + dy[k];
-                if (isValid(nx, ny, n, m) && ans[nx][ny] < minTemp && ans[nx][ny] != 0)
-                {
-                    minTemp = ans[nx][ny];
-                }
-            }
-            ans[i][j] = minTemp + 1;
-        }
-    }
-    
     return ans;
 }
+
 int main(int argc, char const *argv[])
 {
     int n, m;
@@ -101,6 +88,7 @@ int main(int argc, char const *argv[])
         }
     }
     vector<vector<int>> ans = nearest(grid);
+    cout << "Answer is:" << endl;
     for (int i = 0; i < ans.size(); i++)
     {
         for (int j = 0; j < ans[0].size(); j++)
