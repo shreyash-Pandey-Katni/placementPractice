@@ -31,7 +31,7 @@ vector<vector<int>> nearest(vector<vector<int>> grid)
     vector<vector<int>> ans = grid;
     int n = grid.size();
     int m = grid[0].size();
-    int visited[n][m] = {0};
+    vector<vector<int>> visited(n, vector<int>(m, 0));
     queue<ele> q;
     for (int i = 0; i < grid.size(); i++)
     {
