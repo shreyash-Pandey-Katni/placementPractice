@@ -21,42 +21,17 @@ int deleteDuplicatesFromArray(int arr[], int n)
 
 int NumberofElementsInIntersection(int a[], int b[], int n, int m)
 {
-    unordered_set<int> setA;
-    int countOfCommonElements = 0;
-    unordered_set<int> commonElements;
-    n = deleteDuplicatesFromArray(a, n);
-    m = deleteDuplicatesFromArray(b, m);
-    if (n > m)
+    unordered_set<int> s1(a, a + n);
+    unordered_set<int> s2(b, b + m);
+    int count = 0;
+    for (auto i : s1)
     {
-        for (int i = 0; i < m; i++)
+        if (s2.find(i) != s2.end())
         {
-            setA.insert(b[i]);
-        }
-        for (int i = 0; i < n; i++)
-        {
-            if (setA.find(a[i]) != setA.end())
-            {
-                countOfCommonElements++;
-                commonElements.insert(b[i]);
-            }
+            count++;
         }
     }
-    else
-    {
-        for (int i = 0; i < n; i++)
-        {
-            setA.insert(a[i]);
-        }
-        for (int i = 0; i < m; i++)
-        {
-            if (setA.find(b[i]) != setA.end())
-            {
-                countOfCommonElements++;
-                commonElements.insert(b[i]);
-            }
-        }
-    }
-    return commonElements.size();
+    return count;
 }
 int main(int argc, char const *argv[])
 {
