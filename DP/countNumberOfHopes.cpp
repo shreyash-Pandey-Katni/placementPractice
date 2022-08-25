@@ -17,3 +17,10 @@ long long countWays(int n){
     }
     return dp[n];
 }
+int main(int argc, char const *argv[])
+{
+    int n;
+    cin>>n;
+    cout<<countWays(n)<<endl;
+    return 0;
+}
