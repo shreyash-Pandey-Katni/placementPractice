@@ -11,6 +11,7 @@ int threeSumClosest(vector<int> arr, int target)
     int i = 0;
     int j = n - 1;
     int k = n - 2;
-    while
-    // Your code goes here
+    while(i<j){
+        int tempSum = arr[i] + arr[j];
+    }
 }
