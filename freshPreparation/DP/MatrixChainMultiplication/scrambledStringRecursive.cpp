@@ -17,7 +17,7 @@ bool solveRecursive(string A, string B) {
         if (
             (
                 solveRecursive(A.substr(0, i), B.substr(n - i, i)) && 
-                solveRecursive(A.substr(n - i, i), B.substr(0, i))
+                solveRecursive(A.substr(i,n - i), B.substr(0,n- i))
             ) 
             ||
             (
