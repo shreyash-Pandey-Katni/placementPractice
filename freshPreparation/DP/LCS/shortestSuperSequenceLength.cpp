@@ -60,8 +60,8 @@ int shortestCommonSupersequenceLength(string X, string Y, int n, int m)
 
 int main(int argc, char const *argv[])
 {
-    string X = "a";
-    string Y = "bkjll";
+    string X = "rabbbit";
+    string Y = "rabbit";
     cout << shortestCommonSupersequenceLength(X, Y, X.size(), Y.size()) << endl;
     return 0;
 }
