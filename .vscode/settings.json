@@ -16,6 +16,7 @@
         "valarray": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "memory_resource": "cpp"
+        "memory_resource": "cpp",
+        "algorithm": "cpp"
     }
 }
