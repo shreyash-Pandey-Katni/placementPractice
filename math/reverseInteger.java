@@ -17,7 +17,7 @@ public class reverseInteger {
             if (result > (Integer.MAX_VALUE - digit) || result < (Integer.MIN_VALUE + digit) || (result > Integer.MAX_VALUE) || (result > Integer.MAX_VALUE/10 && i < lengthOfA - 1)) {
                 return 0;
             }
-            result += A % 10;
+            result += digit;
             A /= 10;
             i++;
         }
