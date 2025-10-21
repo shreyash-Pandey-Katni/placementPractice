@@ -18,5 +18,7 @@
         "ostream": "cpp",
         "memory_resource": "cpp",
         "algorithm": "cpp"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.debug.settings.showHex": false
 }

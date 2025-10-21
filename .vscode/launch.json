@@ -3,5 +3,167 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "justifiedText",
+            "request": "launch",
+            "mainClass": "string.justifiedText",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "zigZagString",
+            "request": "launch",
+            "mainClass": "string.zigZagString",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "reverseTheString",
+            "request": "launch",
+            "mainClass": "string.reverseTheString",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "lengthOfLastWord",
+            "request": "launch",
+            "mainClass": "string.lengthOfLastWord",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "validIPAddress",
+            "request": "launch",
+            "mainClass": "string.validIPAddress",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "atoi",
+            "request": "launch",
+            "mainClass": "string.atoi",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "compareVersionNumbers",
+            "request": "launch",
+            "mainClass": "string.compareVersionNumbers",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "convertTheAmountInNumberToWords",
+            "request": "launch",
+            "mainClass": "string.convertTheAmountInNumberToWords",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "multiplyString",
+            "request": "launch",
+            "mainClass": "string.multiplyString",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "powerOf2",
+            "request": "launch",
+            "mainClass": "string.powerOf2",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "AddBinaryStrings",
+            "request": "launch",
+            "mainClass": "string.AddBinaryStrings",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "romanToInteger",
+            "request": "launch",
+            "mainClass": "string.romanToInteger",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "IntegerToRoman",
+            "request": "launch",
+            "mainClass": "string.IntegerToRoman",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "longestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "string.longestPalindromicSubstring",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "minimumParanthesis",
+            "request": "launch",
+            "mainClass": "string.minimumParanthesis",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "minimumAppendsForPalindrome",
+            "request": "launch",
+            "mainClass": "string.minimumAppendsForPalindrome",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "convertToPalindrome",
+            "request": "launch",
+            "mainClass": "string.convertToPalindrome",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "minimumCharactersRequiredToMakeStringPalindromic",
+            "request": "launch",
+            "mainClass": "string.minimumCharactersRequiredToMakeStringPalindromic",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "Stringoholics",
+            "request": "launch",
+            "mainClass": "string.Stringoholics",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "ImplementStrStr",
+            "request": "launch",
+            "mainClass": "string.ImplementStrStr",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "longestCommonPrefix",
+            "request": "launch",
+            "mainClass": "string.longestCommonPrefix",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "StringAndItsFrequency",
+            "request": "launch",
+            "mainClass": "string.StringAndItsFrequency",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "removeConsecutiveCharacters",
+            "request": "launch",
+            "mainClass": "string.removeConsecutiveCharacters",
+            "projectName": "placementPractice_21b7f6a4"
+        }
+    ]
 }
