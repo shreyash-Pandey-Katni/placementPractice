@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countingSubArrays",
+            "request": "launch",
+            "mainClass": "twoPointers.countingSubArrays",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "maximumOnesAfterModification",
+            "request": "launch",
+            "mainClass": "twoPointers.maximumOnesAfterModification",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "diffK",
+            "request": "launch",
+            "mainClass": "twoPointers.diffK",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "threeSum",
+            "request": "launch",
+            "mainClass": "twoPointers.threeSum",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "pairWithGivenDifference",
+            "request": "launch",
+            "mainClass": "twoPointers.pairWithGivenDifference",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "prettyJson",
+            "request": "launch",
+            "mainClass": "string.prettyJson",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
             "name": "justifiedText",
             "request": "launch",
             "mainClass": "string.justifiedText",
