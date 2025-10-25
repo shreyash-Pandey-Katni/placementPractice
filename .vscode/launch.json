@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicatesFromSortedArray2",
+            "request": "launch",
+            "mainClass": "twoPointers.RemoveDuplicatesFromSortedArray2",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "subArraysWithDistinctIntegers",
+            "request": "launch",
+            "mainClass": "twoPointers.subArraysWithDistinctIntegers",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
             "name": "countingSubArrays",
             "request": "launch",
             "mainClass": "twoPointers.countingSubArrays",
