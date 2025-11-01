@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reorderList",
+            "request": "launch",
+            "mainClass": "LinkedList.reorderList",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "reverseAlternateKNodes",
+            "request": "launch",
+            "mainClass": "LinkedList.reverseAlternateKNodes",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "kthNodeFromMiddle",
+            "request": "launch",
+            "mainClass": "LinkedList.kthNodeFromMiddle",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "rotateList",
+            "request": "launch",
+            "mainClass": "LinkedList.rotateList",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "evenReverse",
+            "request": "launch",
+            "mainClass": "LinkedList.evenReverse",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "removeNthNodeFromListEnd",
+            "request": "launch",
+            "mainClass": "LinkedList.removeNthNodeFromListEnd",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "sortList",
+            "request": "launch",
+            "mainClass": "LinkedList.sortList",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "insertionSortList",
+            "request": "launch",
+            "mainClass": "LinkedList.insertionSortList",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "partitionList",
+            "request": "launch",
+            "mainClass": "LinkedList.partitionList",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicatesFromSortedArray2",
             "request": "launch",
             "mainClass": "twoPointers.RemoveDuplicatesFromSortedArray2",
