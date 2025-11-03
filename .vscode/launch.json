@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hotelService",
+            "request": "launch",
+            "mainClass": "stacksAndQueues.hotelService",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "RainWaterTrapped",
+            "request": "launch",
+            "mainClass": "stacksAndQueues.RainWaterTrapped",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "largestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "stacksAndQueues.largestRectangleInHistogram",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "maxsprprod",
+            "request": "launch",
+            "mainClass": "stacksAndQueues.maxsprprod",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
             "name": "reorderList",
             "request": "launch",
             "mainClass": "LinkedList.reorderList",
