@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kthPermutationSequence",
+            "request": "launch",
+            "mainClass": "backtracking.kthPermutationSequence",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "maximalString",
+            "request": "launch",
+            "mainClass": "backtracking.maximalString",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "combinationSum2",
+            "request": "launch",
+            "mainClass": "backtracking.combinationSum2",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "combinationSum",
+            "request": "launch",
+            "mainClass": "backtracking.combinationSum",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
+            "name": "modularExpression",
+            "request": "launch",
+            "mainClass": "backtracking.modularExpression",
+            "projectName": "placementPractice_21b7f6a4"
+        },
+        {
+            "type": "java",
             "name": "hotelService",
             "request": "launch",
             "mainClass": "stacksAndQueues.hotelService",
